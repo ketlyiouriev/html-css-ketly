@@ -1,17 +1,9 @@
 .content h1 {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
-.about-intro h3 {
-  margin: 0px;
-}
-.about-content {
-  display: flex;
-  flex-direction: column;
-}
-.about-content p {
-  margin: 0;
+.h3 {
+  font-size: 1.17em;
 }
 .table-container {
   width: 65%;
@@ -67,9 +59,6 @@ table tbody tr:nth-of-type(even) {
 .accordion-content a {
   color: blue;
 }
-.accordion:last-child {
-  margin-bottom: 50px;
-}
 .accordion-label + .accordion-content {
   display: none;
 }
@@ -77,6 +66,9 @@ table tbody tr:nth-of-type(even) {
   display: block;
   max-height: 100vh;
   padding: 1em;
+}
+.accordion:last-child {
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 768px) {

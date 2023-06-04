@@ -1,7 +1,6 @@
 .content h1 {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 form {
   border-radius: 5px;
@@ -28,6 +27,7 @@ select {
 .radio-buttons {
   display: flex;
   flex-direction: column;
+  margin-bottom: 24px;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -76,14 +76,10 @@ input[type="submit"] {
   color: white;
   border: none;
   padding: 14px 20px;
-  margin: 8px 0;
-  margin-top: 24px;
+  margin: 24px 0 8px 0;
   border: none;
   cursor: pointer;
   font-family: serif;
-}
-.radio-buttons {
-  margin-bottom: 24px;
 }
 input[type="submit"]:hover {
   background-color: white;
