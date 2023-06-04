@@ -1,0 +1,17 @@
+.content h1 {
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-top: 125px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #2e1503;
+  width: 75%;
+}
+.content a {
+  margin: 20px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
